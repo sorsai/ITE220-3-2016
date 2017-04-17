@@ -22,6 +22,18 @@ for ( var i = 0; i < products.length; i++) {
  var totalPriceElement = document.getElementById("total-price");
  totalPriceElement.textContent = total;
 
+ var date = new Date();
+ 	if (date.getHours() < 12) {
+ 		document.getElementById('time').innerHTML = " Good Morning";
+ 	} else if (date.getHours() > 12) {
+ 		document.getElementById('time').innerHTML = " Good afternoon";
+ 	} else {
+ 		document.getElementById('time').innerHTML = "Good Evening";
+ 	}
+
+ var dateElement = document.getElementById("date");
+ dateElement.textContent = date;
+
 // // var totalPrice = document.getElementById("total");
 // // totalPrice.textContent = total;
 
