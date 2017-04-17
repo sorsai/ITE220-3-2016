@@ -12,7 +12,7 @@ var productsText="";
 var productsElement = document.getElementById("product-list");
 
 for ( var i = 0; i < products.length; i++) {
-	productsText += "<li class='list-group-item'><span class='badge'>$" + prices[0] + "</span>" + products[0] + "</li>";
+	productsText += "<li class='list-group-item'><span class='badge'>$" + prices[i] + "</span>" + products[i] + "</li>";
 	total += prices[i];
 }
 
