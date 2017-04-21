@@ -35,6 +35,8 @@ if (hours < 12 ){
 }
 document.getElementById("time").innerHTML = say;
 
+ 
+
  // another way for display about the time//
  // var date = new Date();
  // 	if (date.getHours() < 12) {
@@ -47,11 +49,6 @@ document.getElementById("time").innerHTML = say;
 
  // var dateElement = document.getElementById("date");
  // dateElement.textContent = date;
- 
-
- 
-
-
 
 // // var totalPrice = document.getElementById("total");
 // // totalPrice.textContent = total;
