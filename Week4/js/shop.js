@@ -46,20 +46,25 @@ var shop = {
 			  	var ele = document.getElementById("calendar");
 			  	var calendarText = "<table class='table table-considered'>";
 			  	calendarText += this.header;
-			  	// for (var i =1 ; i <=31 ; i++) {
-			  	// 	if ( i = 7 || i = 14 || i = 21 || i = 28) {
-			  	// 		document.write
-			  	// 	}
+/////edit here ... The rest!!!!!!
+			  	//for (var i =1 ; i <=31 ; i++) {
+				var calendarBody;
+				for (var i = 1; i <= 31; i++) {
+					//ele += i;
+  					 // if (i < 7) { 
+  						// document.getElementById("calendar").innerHTML = i;
+  						// "| "+i+"|"
 
-			  	// }		  
+				}	
+				 document.write("</tr></table>");
 			  	calendarText += "</table>"
 			  	ele.innerHTML = calendarText;
 			  }
 		}
-		calendar.displayCalendar();
-
+		 calendar.displayCalendar();
 	}
-};
+}
+
 shop.displayCustomerName();
 shop.displayProducts();
 
