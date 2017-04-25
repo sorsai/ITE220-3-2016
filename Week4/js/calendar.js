@@ -1,5 +1,5 @@
 var calendar = {
-			header:"<tr centerText><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr><tr>",
+			header:"<tr><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr><tr>",
 			  displayCalendar: function() {
 			  	var ele = document.getElementById("calendar");
 			  	var calendarText = "<table class='table table-considered'>";
