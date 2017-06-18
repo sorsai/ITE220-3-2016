@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies Searching</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">	
+			<a class="navbar-brand" href="index.html" >SS Movies </a>
+			<!-- <li style="float: right"><a href="index.html"> SS Movies </a></li> -->
+	</nav>
+	<!-- <nav class="navbar navbar-default" >
+			<div class="container">
+				<div class="navbar-header">	
+					<a class="navbar-brand" href="index.html" >SS Movies </a>
+				</div>
+			</div>
+	</nav> -->
+	<div class="container">
+	<!-- <p id="loading"></p> -->
+		<div class="jumbotron text-center">
+		<h2 class="text-center">Search Your Movies</h2>
+		
+		<br/>
+		<form method="get" >
+			<input type="text" class="form-control" name="search" placeholder="Search your movie here" id="searchmov"><br/>
+		<button  type="submit" class="btn btn-primary" > Search </button>
+		</div>
+		</form>
+		<br/>
+		<!-- <button  type="submit" class="btn btn-primary"  id="search-btn"> Search </button> -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="displaymovies"></div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
